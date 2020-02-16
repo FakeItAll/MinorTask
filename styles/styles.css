@@ -1,0 +1,162 @@
+html {
+    color: #555;
+}
+body {
+
+}
+h2 {
+    color: darkgreen;
+    font-weight: normal;
+}
+.header {
+    background-color: darkgreen;
+    /*height: 300px;*/
+}
+.header-area {
+    height: 220px;
+}
+.header-relative {
+    position: relative;
+    height: 100px;
+    left: 3rem;
+    top: 120px;
+}
+.nav {
+    background-color: lightseagreen;
+    padding: .5rem;
+}
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav-li {
+    display: list-item;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+.nav-link.active, .nav-link:hover {
+    color: darkgrey;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+.panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+.panel-link {
+    /*display: block;*/
+    text-decoration: none;
+    color: mediumspringgreen;
+}
+.panel-search {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.card {
+    display: inline-block;
+    margin: 2rem 19px;
+    width: 450px;
+}
+.card-title {
+    text-align: center;
+}
+.card-img {
+    /*width: inherit;*/
+    height: 300px;
+}
+.card-av-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+.card-header {
+    font-weight: lighter;
+}
+.card-content {
+    font-size: smaller;
+}
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.card-footer {
+    border-top: 1px solid grey;
+    margin-top: 1rem;
+    padding-top: .5rem;
+}
+.card-footer-data {
+    margin-right: 1rem;
+}
+.card-footer-like {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+.footer {
+    background-color: lightsteelblue;
+    height: 200px;
+    margin-top: 2rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text {
+    color: grey;
+}
+.footer-line {
+    margin: .5rem 0;
+}
+.footer-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.form-container {
+    margin-top: 2rem;
+}
+.form-container input,
+.form-container textarea,
+.form-container button {
+    margin: .1rem;
+    width: 12rem;
+}
+.form-container input {
+    height: 1.3rem;
+}
+.form-container textarea {
+    resize: none;
+    height: 5rem;
+}
+.form-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+.share-img {
+    width: 23px;
+    height: 23px;
+}
